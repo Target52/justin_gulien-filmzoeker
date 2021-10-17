@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>Filmzoeker</title>
+    <script defer type="text/javascript" src="js/database.js"></script>
+    <script defer type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Welkom bij de Winc Filmzoeker</h1>
+        </div>
+        <nav id="radios">
+            <div class="radio">
+                <input type="radio" id="lFilm" name="film-filter" value="lFilm">
+                <label for="lFilm">Laatste Films</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="aFilm" name="film-filter" value="aFilm">
+                <label for="aFilm">Avenger Films</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="xFilm" name="film-filter" value="xFilm">
+                <label for="xFilm">X-Men Films</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="pFilm" name="film-filter" value="pFilm">
+                <label for="pFilm">Princess Films</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="bFilm" name="film-filter" value="bFilm">
+                <label for="bFilm">Batman Films</label>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <ul id="movies">
+
+        </ul>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
